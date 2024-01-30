@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ClassStart5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/MovieReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/MovieReviewMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/MovieReviewMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class1/ex/ProductOrderMain.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션1 - 클래스와 데이터">
+      <change afterPath="$PROJECT_DIR$/src/ref/BigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/Method1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/Method2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/VarChange1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/VarChange2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +57,27 @@
     "Application.ClassStart3.executor": "Run",
     "Application.ClassStart4.executor": "Run",
     "Application.ClassStart5.executor": "Run",
+    "Application.InitMain.executor": "Run",
     "Application.Main.executor": "Debug",
+    "Application.Method1.executor": "Run",
+    "Application.MethodChange1.executor": "Run",
+    "Application.MethodChange2.executor": "Run",
     "Application.MovieReviewMain.executor": "Run",
     "Application.MovieReviewMain2.executor": "Run",
+    "Application.NullMain1.executor": "Run",
+    "Application.NullMain2.executor": "Run",
+    "Application.NullMain3.executor": "Run",
+    "Application.NullMain4.executor": "Run",
     "Application.ProductOrderMain.executor": "Run",
+    "Application.ProductOrderMain2.executor": "Run",
+    "Application.ProductOrderMain3.executor": "Run",
+    "Application.VarChange1.executor": "Run",
+    "Application.VarChange2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/minyugyeong/study/inflearn/java/java-basic",
     "onboarding.tips.debug.path": "C:/minyugyeong/study/inflearn/java/java-basic/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -67,17 +87,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ref" />
       <recent name="class1.ex" />
       <recent name="class1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductOrderMain">
-    <configuration name="ClassStart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ClassStart4" />
+  <component name="RunManager" selected="Application.ProductOrderMain3">
+    <configuration name="NullMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ClassStart5" />
+    <configuration name="NullMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain3" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieReviewMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ex.MovieReviewMain" />
+    <configuration name="NullMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain4" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.ex.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieReviewMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ex.MovieReviewMain2" />
+    <configuration name="ProductOrderMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.ex.*" />
+          <option name="PATTERN" value="ref.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ex.ProductOrderMain" />
+    <configuration name="ProductOrderMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain3" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.ex.*" />
+          <option name="PATTERN" value="ref.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductOrderMain" />
-        <item itemvalue="Application.MovieReviewMain2" />
-        <item itemvalue="Application.MovieReviewMain" />
-        <item itemvalue="Application.ClassStart5" />
-        <item itemvalue="Application.ClassStart4" />
+        <item itemvalue="Application.ProductOrderMain3" />
+        <item itemvalue="Application.ProductOrderMain2" />
+        <item itemvalue="Application.NullMain4" />
+        <item itemvalue="Application.NullMain3" />
+        <item itemvalue="Application.NullMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +187,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706518143290</updated>
     </task>
+    <task id="LOCAL-00001" summary="섹션1 - 클래스와 데이터">
+      <option name="closed" value="true" />
+      <created>1706527281953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706527281953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="섹션1 - 클래스와 데이터" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션1 - 클래스와 데이터" />
   </component>
 </project>
