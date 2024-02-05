@@ -4,25 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션1 - 클래스와 데이터">
-      <change afterPath="$PROJECT_DIR$/src/ref/BigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Method2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/NullMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/ex/ProductOrderMain3.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션2 - 기본형과 참조형">
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ValueData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ValueDataMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ValueObjectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/AccountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop1/ex/RectangleOopMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountMain.executor": "Run",
     "Application.ClassStart2.executor": "Run",
     "Application.ClassStart3.executor": "Run",
     "Application.ClassStart4.executor": "Run",
@@ -64,6 +59,8 @@
     "Application.MethodChange2.executor": "Run",
     "Application.MovieReviewMain.executor": "Run",
     "Application.MovieReviewMain2.executor": "Run",
+    "Application.MusicPlayerMain1.executor": "Run",
+    "Application.MusicPlayerMain2.executor": "Run",
     "Application.NullMain1.executor": "Run",
     "Application.NullMain2.executor": "Run",
     "Application.NullMain3.executor": "Run",
@@ -71,6 +68,8 @@
     "Application.ProductOrderMain.executor": "Run",
     "Application.ProductOrderMain2.executor": "Run",
     "Application.ProductOrderMain3.executor": "Run",
+    "Application.RectangleOopMain.executor": "Run",
+    "Application.ValueDataMain.executor": "Run",
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -87,18 +86,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oop1" />
       <recent name="ref" />
       <recent name="class1.ex" />
       <recent name="class1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductOrderMain3">
-    <configuration name="NullMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.NullMain2" />
+  <component name="RunManager" selected="Application.AccountMain">
+    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.ex.AccountMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.*" />
+          <option name="PATTERN" value="oop1.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.NullMain3" />
+    <configuration name="MusicPlayerMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.*" />
+          <option name="PATTERN" value="oop1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.NullMain4" />
+    <configuration name="MusicPlayerMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.*" />
+          <option name="PATTERN" value="oop1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrderMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain2" />
+    <configuration name="RectangleOopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.ex.RectangleOopMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.ex.*" />
+          <option name="PATTERN" value="oop1.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrderMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain3" />
+    <configuration name="ValueDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.ValueDataMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.ex.*" />
+          <option name="PATTERN" value="oop1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductOrderMain3" />
-        <item itemvalue="Application.ProductOrderMain2" />
-        <item itemvalue="Application.NullMain4" />
-        <item itemvalue="Application.NullMain3" />
-        <item itemvalue="Application.NullMain2" />
+        <item itemvalue="Application.AccountMain" />
+        <item itemvalue="Application.RectangleOopMain" />
+        <item itemvalue="Application.ValueDataMain" />
+        <item itemvalue="Application.MusicPlayerMain2" />
+        <item itemvalue="Application.MusicPlayerMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -195,11 +195,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706527281953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="섹션2 - 기본형과 참조형">
+      <option name="closed" value="true" />
+      <created>1706604930023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706604930023</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="섹션1 - 클래스와 데이터" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션1 - 클래스와 데이터" />
+    <MESSAGE value="섹션2 - 기본형과 참조형" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션2 - 기본형과 참조형" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ref/MethodChange1.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
