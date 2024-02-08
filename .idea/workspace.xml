@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션6 - 접근 제어자(접근 제어자 이해)">
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessInnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClassInnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/AccessOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/PublicClassOuterMain.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션6 - 접근 제어자(접근 제어자 사용)">
+      <change afterPath="$PROJECT_DIR$/src/access/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/BankAccountMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +81,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -97,7 +93,7 @@
       <recent name="ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccessInnerMain">
+  <component name="RunManager" selected="Application.BankAccountMain">
     <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
       <module name="java-basic" />
@@ -111,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
+    <configuration name="BankAccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.BankAccountMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="construct.ex.*" />
+          <option name="PATTERN" value="access.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankAccountMain" />
         <item itemvalue="Application.AccessInnerMain" />
         <item itemvalue="Application.SpeakerMain" />
         <item itemvalue="Application.PackageMain2" />
         <item itemvalue="Application.PackageMain1" />
-        <item itemvalue="Application.BookMain" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707391275511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="섹션6 - 접근 제어자(접근 제어자 사용)">
+      <option name="closed" value="true" />
+      <created>1707392446589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707392446589</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,7 +254,8 @@
     <MESSAGE value="섹션4 - 생성자" />
     <MESSAGE value="섹션5 - 패키지" />
     <MESSAGE value="섹션6 - 접근 제어자(접근 제어자 이해)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션6 - 접근 제어자(접근 제어자 이해)" />
+    <MESSAGE value="섹션6 - 접근 제어자(접근 제어자 사용)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션6 - 접근 제어자(접근 제어자 사용)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
