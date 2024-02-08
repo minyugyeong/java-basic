@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션4 - 생성자">
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/a/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/a/User2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/b/User.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션5 - 패키지">
+      <change afterPath="$PROJECT_DIR$/src/access/Speaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/SpeakerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +66,7 @@
     "Application.ProductOrderMain2.executor": "Run",
     "Application.ProductOrderMain3.executor": "Run",
     "Application.RectangleOopMain.executor": "Run",
+    "Application.SpeakerMain.executor": "Run",
     "Application.ValueDataMain.executor": "Run",
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
@@ -103,7 +92,7 @@
       <recent name="ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PackageMain2">
+  <component name="RunManager" selected="Application.SpeakerMain">
     <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
       <module name="java-basic" />
@@ -119,19 +108,6 @@
     </configuration>
     <configuration name="ConstructMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="construct.ConstructMain2" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="construct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberDefaultMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.MemberDefaultMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
@@ -169,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpeakerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.SpeakerMain" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="access.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpeakerMain" />
         <item itemvalue="Application.PackageMain2" />
         <item itemvalue="Application.PackageMain1" />
         <item itemvalue="Application.BookMain" />
         <item itemvalue="Application.ConstructMain2" />
-        <item itemvalue="Application.MemberDefaultMain" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707307745490</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="섹션5 - 패키지">
+      <option name="closed" value="true" />
+      <created>1707389731804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707389731804</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,7 +235,8 @@
     <MESSAGE value="섹션2 - 기본형과 참조형" />
     <MESSAGE value="섹션3 - 객체 지향 프로그래밍" />
     <MESSAGE value="섹션4 - 생성자" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션4 - 생성자" />
+    <MESSAGE value="섹션5 - 패키지" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션5 - 패키지" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
