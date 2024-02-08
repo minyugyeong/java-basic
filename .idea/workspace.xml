@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션5 - 패키지">
-      <change afterPath="$PROJECT_DIR$/src/access/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/SpeakerMain.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션6 - 접근 제어자(접근 제어자 이해)">
+      <change afterPath="$PROJECT_DIR$/src/access/a/AccessData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/AccessInnerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClassInnerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/AccessOuterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/PublicClassOuterMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccessInnerMain.executor": "Run",
     "Application.AccountMain.executor": "Run",
     "Application.BookMain.executor": "Run",
     "Application.ClassStart2.executor": "Run",
@@ -92,13 +97,13 @@
       <recent name="ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpeakerMain">
-    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
+  <component name="RunManager" selected="Application.AccessInnerMain">
+    <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="construct.ex.*" />
+          <option name="PATTERN" value="access.a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.ConstructMain2" />
+    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="construct.*" />
+          <option name="PATTERN" value="construct.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessInnerMain" />
         <item itemvalue="Application.SpeakerMain" />
         <item itemvalue="Application.PackageMain2" />
         <item itemvalue="Application.PackageMain1" />
         <item itemvalue="Application.BookMain" />
-        <item itemvalue="Application.ConstructMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707389731804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="섹션6 - 접근 제어자(접근 제어자 이해)">
+      <option name="closed" value="true" />
+      <created>1707391275511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707391275511</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,7 +249,8 @@
     <MESSAGE value="섹션3 - 객체 지향 프로그래밍" />
     <MESSAGE value="섹션4 - 생성자" />
     <MESSAGE value="섹션5 - 패키지" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션5 - 패키지" />
+    <MESSAGE value="섹션6 - 접근 제어자(접근 제어자 이해)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션6 - 접근 제어자(접근 제어자 이해)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
