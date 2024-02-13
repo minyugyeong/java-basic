@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션7 - 자바 메모리 구조와 static(static 변수1)">
-      <change afterPath="$PROJECT_DIR$/src/static1/Data3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static1/DataCountMain3.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션7 - 자바 메모리 구조와 static(static 변수3)">
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoUtil2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +52,7 @@
     "Application.DataCountMain1.executor": "Run",
     "Application.DataCountMain2.executor": "Run",
     "Application.DataCountMain3.executor": "Run",
+    "Application.DecoMain1.executor": "Run",
     "Application.InitMain.executor": "Run",
     "Application.JavaMemoryMain1.executor": "Run",
     "Application.JavaMemoryMain2.executor": "Run",
@@ -94,14 +97,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="static2" />
       <recent name="static1" />
       <recent name="pack.a" />
       <recent name="pack" />
       <recent name="construct" />
-      <recent name="oop1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataCountMain3">
+  <component name="RunManager" selected="Application.DecoMain2">
     <configuration name="DataCountMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="static1.DataCountMain1" />
       <module name="java-basic" />
@@ -141,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaMemoryMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.JavaMemoryMain1" />
+    <configuration name="DecoMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memory.*" />
+          <option name="PATTERN" value="static2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaMemoryMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.JavaMemoryMain2" />
+    <configuration name="DecoMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memory.*" />
+          <option name="PATTERN" value="static2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoMain2" />
+        <item itemvalue="Application.DecoMain1" />
         <item itemvalue="Application.DataCountMain3" />
         <item itemvalue="Application.DataCountMain2" />
         <item itemvalue="Application.DataCountMain1" />
-        <item itemvalue="Application.JavaMemoryMain2" />
-        <item itemvalue="Application.JavaMemoryMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +295,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707816004691</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="섹션7 - 자바 메모리 구조와 static(static 변수2)">
+      <option name="closed" value="true" />
+      <created>1707816642363</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707816642363</updated>
+    </task>
+    <task id="LOCAL-00014" summary="섹션7 - 자바 메모리 구조와 static(static 변수3)">
+      <option name="closed" value="true" />
+      <created>1707816860645</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707816860645</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,7 +327,9 @@
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(스택 영역)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(스택 영역과 힙 영역)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 변수1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션7 - 자바 메모리 구조와 static(static 변수1)" />
+    <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 변수2)" />
+    <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 변수3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션7 - 자바 메모리 구조와 static(static 변수3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
