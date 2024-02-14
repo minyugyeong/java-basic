@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션7 - 자바 메모리 구조와 static(static 메서드3)">
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtilsMain.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션7 - 자바 메모리 구조와 static(문제와 풀이)">
+      <change afterPath="$PROJECT_DIR$/src/final1/ConstructInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/FieldInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/FinalFieldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/FinalLocalMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,69 +36,69 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccessInnerMain.executor": "Run",
-    "Application.AccountMain.executor": "Run",
-    "Application.BankAccountMain.executor": "Run",
-    "Application.BookMain.executor": "Run",
-    "Application.CarMain.executor": "Run",
-    "Application.ClassStart2.executor": "Run",
-    "Application.ClassStart3.executor": "Run",
-    "Application.ClassStart4.executor": "Run",
-    "Application.ClassStart5.executor": "Run",
-    "Application.ConstructMain1.executor": "Run",
-    "Application.ConstructMain2.executor": "Run",
-    "Application.CounterMain.executor": "Run",
-    "Application.DataCountMain1.executor": "Run",
-    "Application.DataCountMain2.executor": "Run",
-    "Application.DataCountMain3.executor": "Run",
-    "Application.DecoDataMain.executor": "Run",
-    "Application.DecoMain1.executor": "Run",
-    "Application.DecoMain2.executor": "Run",
-    "Application.InitMain.executor": "Run",
-    "Application.JavaMemoryMain1.executor": "Run",
-    "Application.JavaMemoryMain2.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.MathArrayUtilsMain.executor": "Run",
-    "Application.MemberDefaultMain.executor": "Run",
-    "Application.Method1.executor": "Run",
-    "Application.MethodChange1.executor": "Run",
-    "Application.MethodChange2.executor": "Run",
-    "Application.MethodInitMain1.executor": "Run",
-    "Application.MethodInitMain3.executor": "Run",
-    "Application.MovieReviewMain.executor": "Run",
-    "Application.MovieReviewMain2.executor": "Run",
-    "Application.MusicPlayerMain1.executor": "Run",
-    "Application.MusicPlayerMain2.executor": "Run",
-    "Application.NullMain1.executor": "Run",
-    "Application.NullMain2.executor": "Run",
-    "Application.NullMain3.executor": "Run",
-    "Application.NullMain4.executor": "Run",
-    "Application.PackageMain1.executor": "Run",
-    "Application.PackageMain2.executor": "Run",
-    "Application.ProductOrderMain.executor": "Run",
-    "Application.ProductOrderMain2.executor": "Run",
-    "Application.ProductOrderMain3.executor": "Run",
-    "Application.RectangleOopMain.executor": "Run",
-    "Application.ShoppingCartMain.executor": "Run",
-    "Application.SpeakerMain.executor": "Run",
-    "Application.ValueDataMain.executor": "Run",
-    "Application.VarChange1.executor": "Run",
-    "Application.VarChange2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/minyugyeong/study/inflearn/java/java-basic",
-    "onboarding.tips.debug.path": "C:/minyugyeong/study/inflearn/java/java-basic/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccessInnerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccountMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassStart5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataCountMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataCountMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataCountMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecoDataMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecoMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecoMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InitMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaMemoryMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaMemoryMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MathArrayUtilsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberDefaultMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Method1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodChange1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodChange2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodInitMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovieReviewMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovieReviewMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MusicPlayerMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MusicPlayerMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NullMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NullMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NullMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NullMain4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PackageMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PackageMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOrderMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOrderMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOrderMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleOopMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingCartMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpeakerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValueDataMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VarChange1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VarChange2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/minyugyeong/study/inflearn/java/java-basic&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/minyugyeong/study/inflearn/java/java-basic/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="static2" />
@@ -108,7 +108,7 @@
       <recent name="construct" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathArrayUtilsMain">
+  <component name="RunManager" selected="Application.FinalFieldMain">
     <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="static2.ex.CarMain" />
       <module name="java-basic" />
@@ -135,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.DecoMain1" />
+    <configuration name="DecoMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
@@ -148,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.DecoMain2" />
+    <configuration name="FinalFieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.FinalFieldMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalFieldMain" />
         <item itemvalue="Application.MathArrayUtilsMain" />
         <item itemvalue="Application.CarMain" />
         <item itemvalue="Application.DecoDataMain" />
         <item itemvalue="Application.DecoMain2" />
-        <item itemvalue="Application.DecoMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707823572280</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="섹션7 - 자바 메모리 구조와 static(문제와 풀이)">
+      <option name="closed" value="true" />
+      <created>1707824741978</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707824741978</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -359,7 +367,8 @@
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 변수3)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 메서드1)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 메서드3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션7 - 자바 메모리 구조와 static(static 메서드3)" />
+    <MESSAGE value="섹션7 - 자바 메모리 구조와 static(문제와 풀이)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션7 - 자바 메모리 구조와 static(문제와 풀이)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
