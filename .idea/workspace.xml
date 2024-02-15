@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션9 - 상속(상속관계)">
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/GasCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/HydrogenCar.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션9 - 상속(상속과 기능 추가)">
+      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/GasCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/HydrogenCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,12 +95,13 @@
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
     "Application.extends1.ex3.CarMain.executor": "Run",
+    "Application.extends1.overriding.CarMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/minyugyeong/study/inflearn/java/java-basic/src/extends1/ex3",
+    "last_opened_file_path": "C:/minyugyeong/study/inflearn/java/java-basic/src/extends1/overriding",
     "onboarding.tips.debug.path": "C:/minyugyeong/study/inflearn/java/java-basic/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -110,6 +111,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\minyugyeong\study\inflearn\java\java-basic\src\extends1\overriding" />
       <recent name="C:\minyugyeong\study\inflearn\java\java-basic\src\extends1\ex3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -120,26 +122,13 @@
       <recent name="pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.extends1.ex3.CarMain">
+  <component name="RunManager" selected="Application.extends1.overriding.CarMain">
     <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extends1.ex2.CarMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="extends1.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain1" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,13 +175,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="extends1.overriding.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extends1.overriding.CarMain" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extends1.overriding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.extends1.overriding.CarMain" />
         <item itemvalue="Application.extends1.ex3.CarMain" />
         <item itemvalue="Application.CarMain" />
         <item itemvalue="Application.MemberMain" />
         <item itemvalue="Application.FinalRefMain" />
-        <item itemvalue="Application.ConstantMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707994188450</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="섹션9 - 상속(상속과 기능 추가)">
+      <option name="closed" value="true" />
+      <created>1707994853190</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707994853190</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -434,7 +444,8 @@
     <MESSAGE value="섹션8 - final(정리)" />
     <MESSAGE value="섹션9 - 상속(상속-시작)" />
     <MESSAGE value="섹션9 - 상속(상속관계)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션9 - 상속(상속관계)" />
+    <MESSAGE value="섹션9 - 상속(상속과 기능 추가)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션9 - 상속(상속과 기능 추가)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
