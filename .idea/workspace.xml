@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션9 - 상속(상속과 접근 제어)">
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/ExtendsAccessMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/child/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/parent/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super1/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super1/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super1/Super1Main.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션9 - 상속(super-부모 참조)">
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extends1/super2/Super2Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +91,8 @@
     "Application.RectangleOopMain.executor": "Run",
     "Application.ShoppingCartMain.executor": "Run",
     "Application.SpeakerMain.executor": "Run",
+    "Application.Super1Main.executor": "Run",
+    "Application.Super2Main.executor": "Run",
     "Application.ValueDataMain.executor": "Run",
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
@@ -124,20 +124,7 @@
       <recent name="pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Super1Main">
-    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.ex2.CarMain" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extends1.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Super2Main">
     <configuration name="ExtendsAccessMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extends1.access.ExtendsAccessMain" />
       <module name="java-basic" />
@@ -157,6 +144,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="extends1.super1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Super2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extends1.super2.Super2Main" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extends1.super2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Super2Main" />
         <item itemvalue="Application.Super1Main" />
         <item itemvalue="Application.ExtendsAccessMain" />
         <item itemvalue="Application.extends1.overriding.CarMain" />
         <item itemvalue="Application.extends1.ex3.CarMain" />
-        <item itemvalue="Application.CarMain" />
       </list>
     </recent_temporary>
   </component>
@@ -435,11 +435,26 @@
       <option name="project" value="LOCAL" />
       <updated>1707996000058</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="섹션9 - 상속(상속과 접근 제어)">
+      <option name="closed" value="true" />
+      <created>1707996498556</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1707996498556</updated>
+    </task>
+    <task id="LOCAL-00029" summary="섹션9 - 상속(super-부모 참조)">
+      <option name="closed" value="true" />
+      <created>1707996513986</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707996513986</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="섹션2 - 기본형과 참조형" />
     <MESSAGE value="섹션3 - 객체 지향 프로그래밍" />
     <MESSAGE value="섹션4 - 생성자" />
     <MESSAGE value="섹션5 - 패키지" />
@@ -464,7 +479,8 @@
     <MESSAGE value="섹션9 - 상속(상속과 기능 추가)" />
     <MESSAGE value="섹션9 - 상속(상속과 메서드 오버라이딩)" />
     <MESSAGE value="섹션9 - 상속(상속과 접근 제어)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션9 - 상속(상속과 접근 제어)" />
+    <MESSAGE value="섹션9 - 상속(super-부모 참조)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션9 - 상속(super-부모 참조)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
