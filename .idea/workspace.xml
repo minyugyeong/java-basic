@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션9 - 상속(문제와 풀이)">
-      <change afterPath="$PROJECT_DIR$/src/ploy/basic/CastingMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/basic/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/basic/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/basic/PolyMain.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션10 - 다형성1(다형성과 캐스팅)">
+      <change afterPath="$PROJECT_DIR$/src/ploy/basic/CastingMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/basic/CastingMain3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +44,7 @@
     "Application.BankAccountMain.executor": "Run",
     "Application.BookMain.executor": "Run",
     "Application.CarMain.executor": "Run",
+    "Application.CastingMain1.executor": "Run",
     "Application.ClassStart2.executor": "Run",
     "Application.ClassStart3.executor": "Run",
     "Application.ClassStart4.executor": "Run",
@@ -119,11 +118,11 @@
       <recent name="C:\minyugyeong\study\inflearn\java\java-basic\src\extends1\ex3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ploy.basic" />
       <recent name="extends1.ex2" />
       <recent name="static2" />
       <recent name="static1" />
       <recent name="pack.a" />
-      <recent name="pack" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CastingMain1">
@@ -469,12 +468,26 @@
       <option name="project" value="LOCAL" />
       <updated>1707998399003</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="섹션10 - 다형성1(다형성 시작)">
+      <option name="closed" value="true" />
+      <created>1708148904623</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1708148904623</updated>
+    </task>
+    <task id="LOCAL-00033" summary="섹션10 - 다형성1(다형성과 캐스팅)">
+      <option name="closed" value="true" />
+      <created>1708149176451</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708149176451</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="섹션5 - 패키지" />
-    <MESSAGE value="섹션6 - 접근 제어자(접근 제어자 이해)" />
     <MESSAGE value="섹션6 - 접근 제어자(접근 제어자 사용)" />
     <MESSAGE value="섹션6 - 접근 제어자(캡슐화)" />
     <MESSAGE value="섹션6 - 접근 제어자(문제와 풀이)" />
@@ -498,7 +511,9 @@
     <MESSAGE value="섹션9 - 상속(super-부모 참조)" />
     <MESSAGE value="섹션9 - 상속(super-생성자)" />
     <MESSAGE value="섹션9 - 상속(문제와 풀이)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션9 - 상속(문제와 풀이)" />
+    <MESSAGE value="섹션10 - 다형성1(다형성 시작)" />
+    <MESSAGE value="섹션10 - 다형성1(다형성과 캐스팅)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션10 - 다형성1(다형성과 캐스팅)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
