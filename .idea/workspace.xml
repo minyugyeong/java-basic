@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션10 - 다형성1(다운캐스팅과 주의점)">
-      <change afterPath="$PROJECT_DIR$/src/ploy/basic/CastingMain5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/basic/CastingMain6.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션10 - 다형성1(instanceof)">
+      <change afterPath="$PROJECT_DIR$/src/ploy/overriding/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/overriding/OverridingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/overriding/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
     "Application.CastingMain1.executor": "Run",
     "Application.CastingMain4.executor": "Run",
     "Application.CastingMain5.executor": "Run",
+    "Application.CastingMain6.executor": "Run",
     "Application.ClassStart2.executor": "Run",
     "Application.ClassStart3.executor": "Run",
     "Application.ClassStart4.executor": "Run",
@@ -84,6 +86,7 @@
     "Application.NullMain2.executor": "Run",
     "Application.NullMain3.executor": "Run",
     "Application.NullMain4.executor": "Run",
+    "Application.OverridingMain.executor": "Run",
     "Application.PackageMain1.executor": "Run",
     "Application.PackageMain2.executor": "Run",
     "Application.PolyMain.executor": "Run",
@@ -127,7 +130,7 @@
       <recent name="pack.a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CastingMain6">
+  <component name="RunManager" selected="Application.OverridingMain">
     <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ploy.basic.CastingMain1" />
       <module name="java-basic" />
@@ -180,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ploy.basic.PolyMain" />
+    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ploy.overriding.OverridingMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ploy.basic.*" />
+          <option name="PATTERN" value="ploy.overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverridingMain" />
         <item itemvalue="Application.CastingMain6" />
         <item itemvalue="Application.CastingMain5" />
         <item itemvalue="Application.CastingMain4" />
         <item itemvalue="Application.CastingMain1" />
-        <item itemvalue="Application.PolyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -502,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708150054202</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="섹션10 - 다형성1(instanceof)">
+      <option name="closed" value="true" />
+      <created>1708150649947</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1708150649947</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="섹션6 - 접근 제어자(문제와 풀이)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(스택 영역)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(스택 영역과 힙 영역)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 변수1)" />
@@ -531,7 +541,8 @@
     <MESSAGE value="섹션10 - 다형성1(다형성과 캐스팅)" />
     <MESSAGE value="섹션10 - 다형성1(캐스팅의 종류)" />
     <MESSAGE value="섹션10 - 다형성1(다운캐스팅과 주의점)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션10 - 다형성1(다운캐스팅과 주의점)" />
+    <MESSAGE value="섹션10 - 다형성1(instanceof)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션10 - 다형성1(instanceof)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
