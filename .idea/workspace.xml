@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션11 - 다형성2(다형성 활용2)">
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex2/AnimalPolyMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex2/AnimalPolyMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex2/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex2/Pig.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션11 - 다형성2(다형성 활용3)">
+      <change afterPath="$PROJECT_DIR$/src/ploy/ex3/AbstractAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/ex3/AbstractMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/ex3/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/ex3/Caw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/ex3/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractMain.executor": "Run",
     "Application.AccessInnerMain.executor": "Run",
     "Application.AccountMain.executor": "Run",
     "Application.AnimalPolyMain1.executor": "Run",
@@ -135,7 +137,20 @@
       <recent name="static1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalPolyMain3">
+  <component name="RunManager" selected="Application.AbstractMain">
+    <configuration name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ploy.ex3.AbstractMain" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ploy.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnimalPolyMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ploy.ex2.AnimalPolyMain1" />
       <module name="java-basic" />
@@ -188,26 +203,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ploy.overriding.OverridingMain" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ploy.overriding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractMain" />
         <item itemvalue="Application.AnimalPolyMain3" />
         <item itemvalue="Application.AnimalPolyMain2" />
         <item itemvalue="Application.AnimalPolyMain1" />
         <item itemvalue="Application.AnimalSoundMain" />
-        <item itemvalue="Application.OverridingMain" />
       </list>
     </recent_temporary>
   </component>
@@ -542,11 +544,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708338223894</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="섹션11 - 다형성2(다형성 활용3)">
+      <option name="closed" value="true" />
+      <created>1708339025521</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1708339025522</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 변수2)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 변수3)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 메서드1)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 메서드3)" />
@@ -571,7 +580,8 @@
     <MESSAGE value="섹션10 - 다형성1(다형성과 메서드 오버라이딩)" />
     <MESSAGE value="섹션11 - 다형성2(다형성 활용1)" />
     <MESSAGE value="섹션11 - 다형성2(다형성 활용2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션11 - 다형성2(다형성 활용2)" />
+    <MESSAGE value="섹션11 - 다형성2(다형성 활용3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션11 - 다형성2(다형성 활용3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
