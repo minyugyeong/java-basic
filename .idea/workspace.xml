@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션11 - 다형성2(추상 클래스2)">
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex5/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex5/Caw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex5/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex5/InterfaceAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/ex5/InterfaceMain.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션11 - 다형성2(인터페이스)">
+      <change afterPath="$PROJECT_DIR$/src/ploy/diamond/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/diamond/DiamondMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/diamond/InterfaceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ploy/diamond/InterfaceB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,14 +133,14 @@
       <recent name="C:\minyugyeong\study\inflearn\java\java-basic\src\extends1\ex3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ploy.diamond" />
       <recent name="ploy.ex2" />
       <recent name="ploy.basic" />
       <recent name="extends1.ex2" />
       <recent name="static2" />
-      <recent name="static1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceMain">
+  <component name="RunManager" selected="Application.DiamondMain">
     <configuration name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ploy.ex3.AbstractMain" />
       <module name="java-basic" />
@@ -155,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalPolyMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ploy.ex2.AnimalPolyMain2" />
+    <configuration name="AnimalPolyMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ploy.ex2.AnimalPolyMain3" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
@@ -168,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalPolyMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ploy.ex2.AnimalPolyMain3" />
+    <configuration name="DiamondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ploy.diamond.DiamondMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ploy.ex2.*" />
+          <option name="PATTERN" value="ploy.diamond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiamondMain" />
         <item itemvalue="Application.InterfaceMain" />
         <item itemvalue="Application.ploy.ex4.AbstractMain" />
         <item itemvalue="Application.AbstractMain" />
         <item itemvalue="Application.AnimalPolyMain3" />
-        <item itemvalue="Application.AnimalPolyMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -572,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708340582783</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="섹션11 - 다형성2(인터페이스)">
+      <option name="closed" value="true" />
+      <created>1708512997357</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1708512997357</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="섹션7 - 자바 메모리 구조와 static(static 메서드3)" />
     <MESSAGE value="섹션7 - 자바 메모리 구조와 static(문제와 풀이)" />
     <MESSAGE value="섹션8 - final(final 변수와 상수1)" />
     <MESSAGE value="섹션8 - final(final 변수와 상수2)" />
@@ -601,7 +607,8 @@
     <MESSAGE value="섹션11 - 다형성2(다형성 활용3)" />
     <MESSAGE value="섹션11 - 다형성2(추상 클래스1)" />
     <MESSAGE value="섹션11 - 다형성2(추상 클래스2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션11 - 다형성2(추상 클래스2)" />
+    <MESSAGE value="섹션11 - 다형성2(인터페이스)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션11 - 다형성2(인터페이스)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
