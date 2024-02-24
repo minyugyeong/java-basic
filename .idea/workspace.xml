@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션12 - 다형성과 설계(다형성-역할과 구현 예제2)">
-      <change afterPath="$PROJECT_DIR$/src/ploy/car1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/car1/CarMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/car1/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/car1/K3Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ploy/car1/Model3Car.java" afterDir="false" />
+    <list default="true" id="a044412d-843a-47a1-be06-cb37d2d64ad7" name="Changes" comment="섹션12 - 다형성과 설계(다형성-역할과 구현 예제3)">
+      <change afterPath="$PROJECT_DIR$/src/ploy/car1/NewCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ploy/car1/CarMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ploy/car1/CarMain1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -616,11 +613,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708752806625</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="섹션12 - 다형성과 설계(다형성-역할과 구현 예제3)">
+      <option name="closed" value="true" />
+      <created>1708753415068</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1708753415068</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="섹션8 - final(정리)" />
     <MESSAGE value="섹션9 - 상속(상속-시작)" />
     <MESSAGE value="섹션9 - 상속(상속관계)" />
     <MESSAGE value="섹션9 - 상속(상속과 기능 추가)" />
@@ -645,7 +649,8 @@
     <MESSAGE value="섹션11 - 다형성2(클래스와 인터페이스 활용)" />
     <MESSAGE value="섹션12 - 다형성과 설계(다형성-역할과 구현 예제1)" />
     <MESSAGE value="섹션12 - 다형성과 설계(다형성-역할과 구현 예제2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="섹션12 - 다형성과 설계(다형성-역할과 구현 예제2)" />
+    <MESSAGE value="섹션12 - 다형성과 설계(다형성-역할과 구현 예제3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섹션12 - 다형성과 설계(다형성-역할과 구현 예제3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
